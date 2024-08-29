@@ -19,10 +19,18 @@ namespace Programmering
             */
 
             // Sundhed
+            /* 
+                        Sundhed sundhed = new Sundhed();
+                        sundhed.BeregnBMI();
 
-            Sundhed sundhed = new Sundhed();
-            sundhed.BeregnBMI();
+             */
 
+            // Løkker
+            Løkker løkker = new Løkker();
+            løkker.ForLøkke();
+            løkker.WhileLøkke();
+            løkker.DoWhileLøkke();
+            løkker.ForEachLøkke();
 
         }
     }
