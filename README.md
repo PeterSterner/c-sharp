@@ -16,5 +16,4 @@ Formålet med dette repository er følgende:
 6. Åben mappen i Visual Studio Code.
 7. Åben en terminal i Visual Studio Code.
 8. Skriv `dotnet run` i terminalen for at køre et C# program.
-9. Skriv `dotnet build` i terminalen for at bygge et C# program.
 
