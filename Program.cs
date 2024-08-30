@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Security.Cryptography;
+
 namespace Programmering
 {
     class Program
@@ -47,6 +49,9 @@ namespace Programmering
             k.InfoOmDyr();
             k.Mjav();
 
+            // Lister
+            Lister l = new();
+            l.ListeEksempler();
 
 
         }
