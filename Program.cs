@@ -3,7 +3,7 @@ namespace Programmering
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
 
             // HejNavn
@@ -34,10 +34,19 @@ namespace Programmering
             */
 
             // Objekt-orienteret eksempel
-            Dyr d1 = new Dyr("Fido", 5, 10, "Hund");
-            Dyr d2 = new Dyr("Simba", 3, 5, "Kat");
+            Dyr d1 = new("Fido", 5, 10, "Hund");
+            Dyr d2 = new("Simba", 3, 5, "Kat");
             d1.InfoOmDyr();
             d2.InfoOmDyr();
+            d1.Navn = "Rex";
+            d1.InfoOmDyr();
+            Hund h = new("Scooby", 20, 50);
+            h.InfoOmDyr();
+            h.Gø();
+            Kat k = new("Garfield", 10, 20);
+            k.InfoOmDyr();
+            k.Mjav();
+
 
 
         }
