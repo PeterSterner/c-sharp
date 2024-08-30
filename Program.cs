@@ -20,10 +20,9 @@ namespace Programmering
 
             // Sundhed
             /* 
-                        Sundhed sundhed = new Sundhed();
-                        sundhed.BeregnBMI();
-
-             */
+            Sundhed sundhed = new Sundhed();
+            sundhed.BeregnBMI();
+            */
 
             // Løkker
             /*
