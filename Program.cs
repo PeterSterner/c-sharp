@@ -26,11 +26,20 @@ namespace Programmering
              */
 
             // Løkker
+            /*
             Løkker løkker = new Løkker();
             løkker.ForLøkke();
             løkker.WhileLøkke();
             løkker.DoWhileLøkke();
             løkker.ForEachLøkke();
+            */
+
+            // Objekt-orienteret eksempel
+            Dyr d1 = new Dyr("Fido", 5, 10, "Hund");
+            Dyr d2 = new Dyr("Simba", 3, 5, "Kat");
+            d1.InfoOmDyr();
+            d2.InfoOmDyr();
+
 
         }
     }
