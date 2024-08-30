@@ -43,4 +43,4 @@ Husk at tilføje projektet til din solution:
 dotnet sln add myApp/myApp.csproj
 ```
 
-Når du har tilføjet projektet til din solution, så opretter Visual Studio Code automatisk en `.vscode` mappe med en `launch.json` hhv `tasks.json` filer.
+Når du har tilføjet projektet til din solution, så opretter Visual Studio Code automatisk en `.vscode` mappe med `launch.json` hhv `tasks.json` filer.
