@@ -50,10 +50,10 @@ namespace Programmering
             k.Mjav();
 
             // Lister
+            /*
             Lister l = new();
             l.ListeEksempler();
-
-
+            */
         }
     }
 }

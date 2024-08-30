@@ -38,7 +38,7 @@
       "problemMatcher": "$msCompile"
     },
     {
-      "label": "watch and clear terminal",
+      "label": "watch and clear terminal (linux)",
       "type": "shell",
       "command": "clear && dotnet watch run --project ${workspaceFolder}/c-sharp.csproj",
       "problemMatcher": "$msCompile"
