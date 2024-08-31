@@ -3,8 +3,8 @@ namespace Programmering
     class Dyr(string navn, int alder, int vægt, string art) : IDyr
     {
         public string Navn { get; set; } = navn;
-        public int Alder { get; } = alder;
-        public int Vægt { get; } = vægt;
+        public int Alder { get; set; } = alder;
+        public int Vægt { get; set; } = vægt;
         public string Art { get; } = art;
 
         public void InfoOmDyr()
@@ -44,7 +44,12 @@ namespace Programmering
 
     interface IDyr
     {
+        string Navn { get; set; }
+        int Alder { get; set; }
+        int Vægt { get; set; }
+        string Art { get; }
         void InfoOmDyr();
+
     }
 
 }
