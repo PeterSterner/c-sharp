@@ -1,6 +1,6 @@
 namespace Programmering
 {
-    class Dyr(string navn, int alder, int vægt, string art)
+    class Dyr(string navn, int alder, int vægt, string art) : IDyr
     {
         public string Navn { get; set; } = navn;
         public int Alder { get; } = alder;
@@ -19,6 +19,19 @@ namespace Programmering
         {
             Console.WriteLine("Vov vov vov - jeg er en hund og hedder " + Navn);
         }
+
+        public void Gø(int antalGange)
+        {
+            for (int i = 0; i < antalGange; i++)
+            {
+                Console.WriteLine("Vov vov vov - jeg er en hund og hedder " + Navn);
+            }
+        }
+
+        public new void InfoOmDyr()
+        {
+            Console.WriteLine($"Hunden hedder {Navn}, er {Alder} år gammel, vejer {Vægt} kg og er en {Art}");
+        }
     }
 
     class Kat(string navn, int alder, int vægt) : Dyr(navn, alder, vægt, "Kat")
@@ -28,4 +41,10 @@ namespace Programmering
             Console.WriteLine("Mjav mjav - jeg er en kat og hedder " + Navn);
         }
     }
+
+    interface IDyr
+    {
+        void InfoOmDyr();
+    }
+
 }
