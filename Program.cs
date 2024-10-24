@@ -36,6 +36,7 @@ namespace Programmering
             */
 
             // Objekt-orienteret eksempel
+            /*
             Dyr d1 = new("Fido", 5, 10, "Hund");
             Dyr d2 = new("Simba", 3, 5, "Kat");
             d1.InfoOmDyr();
@@ -48,12 +49,17 @@ namespace Programmering
             Kat k = new("Garfield", 10, 20);
             k.InfoOmDyr();
             k.Mjav();
-
+            */
             // Lister
             /*
             Lister l = new();
             l.ListeEksempler();
             */
+
+            // ListerILister
+            Lister l = new();
+            l.ListerIListerEksempler();
+
         }
     }
 }

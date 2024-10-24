@@ -2,14 +2,13 @@ namespace Programmering
 {
     class Lister
     {
-        public void ListeEksempler()
+        public static void ListeEksempler()
         {
             List<string> navne = new List<string>();
             navne.Add("Hans");
             navne.Add("Trine");
             navne.Add("Jens");
             navne.Add("Lone");
-
 
             foreach (string navn in navne)
             {
@@ -53,6 +52,21 @@ namespace Programmering
             }
 
             Console.WriteLine("Antal navne: " + navne.Count);
+        }
+
+        public static void ListerIListerEksempler()
+        {
+            List<List<int>> tal = [[1, 2, 3], [4, 5, 6]];
+            // udskriv tal[1][2] = 6
+            Console.WriteLine(tal[1][2]);
+            // udskriv alle tal
+            foreach (List<int> l in tal)
+            {
+                foreach (int i in l)
+                {
+                    Console.WriteLine(i);
+                }
+            }
         }
     }
 }
