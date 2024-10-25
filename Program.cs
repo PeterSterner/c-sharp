@@ -57,8 +57,8 @@ namespace Programmering
             */
 
             // ListerILister
-            Lister l = new();
-            l.ListerIListerEksempler();
+            Lister.ListerIListerEksempler();
+
 
         }
     }
