@@ -6,6 +6,7 @@
     <RootNamespace>c_sharp</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject>Programmering.Program</StartupObject>
   </PropertyGroup>
 
 </Project>
