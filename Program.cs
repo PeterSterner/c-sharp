@@ -57,7 +57,14 @@ namespace Programmering
             */
 
             // ListerILister
-            Lister.ListerIListerEksempler();
+            //Lister.ListerIListerEksempler();
+
+            // Fejlhåndtering
+
+            Fejlhåndtering f = new();
+            //f.Kør();
+            f.Test();
+
 
 
         }
