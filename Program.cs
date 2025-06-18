@@ -1,7 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System.Security.Cryptography;
-
-namespace Programmering
+﻿namespace Programmering
 {
     class Program
     {
