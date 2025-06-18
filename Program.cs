@@ -57,12 +57,11 @@
             //Lister.ListerIListerEksempler();
 
             // Fejlhåndtering
+            /* Fejlhåndtering f = new();
+            f.Kør();
+            f.Test(); */
 
-            Fejlhåndtering f = new();
-            //f.Kør();
-            f.Test();
-
-
+            System.Console.WriteLine("Programmet er færdigt! Tryk på en tast for at afslutte.");
 
         }
     }
